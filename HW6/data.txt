@@ -1,0 +1,88 @@
+Training...
+0 Test Loss 0.108798
+0 Train accuracy: 0.96917 Test accuracy: 0.974365
+1 Test Loss 0.057606
+1 Train accuracy: 0.983947 Test accuracy: 0.987805
+2 Test Loss 0.0420324
+2 Train accuracy: 0.986501 Test accuracy: 0.989049
+3 Test Loss 0.0296587
+3 Train accuracy: 0.990423 Test accuracy: 0.99104
+4 Test Loss 0.0181524
+4 Train accuracy: 0.994162 Test accuracy: 0.994276
+Finished training
+
+
+
+## With Freezing
+Training 023678...
+INFO:tensorflow:Restoring parameters from ./my_model_1459.ckpt
+0 Test loss: 0.424714
+0 Train accuracy: 0.933481 Test accuracy: 0.927951
+1 Test loss: 0.321781
+1 Train accuracy: 0.95008 Test accuracy: 0.9445
+2 Test loss: 0.354128
+2 Train accuracy: 0.949082 Test accuracy: 0.944835
+3 Test loss: 0.404344
+3 Train accuracy: 0.944819 Test accuracy: 0.935807
+4 Test loss: 0.445445
+4 Train accuracy: 0.942612 Test accuracy: 0.935306
+5 Test loss: 0.408485
+5 Train accuracy: 0.948659 Test accuracy: 0.938148
+6 Test loss: 0.429609
+6 Train accuracy: 0.946331 Test accuracy: 0.940655
+7 Test loss: 0.36254
+7 Train accuracy: 0.954525 Test accuracy: 0.947008
+8 Test loss: 0.375806
+8 Train accuracy: 0.956581 Test accuracy: 0.948679
+9 Test loss: 0.430474
+
+
+# MNIST-023678 with fine tuning
+Training 023678...
+INFO:tensorflow:Restoring parameters from ./my_model_1459.ckpt
+0 Test loss: 0.050068
+0 Train accuracy: 0.987119 Test accuracy: 0.983785
+1 Test loss: 0.035268
+1 Train accuracy: 0.990597 Test accuracy: 0.985624
+2 Test loss: 0.0215297
+2 Train accuracy: 0.994618 Test accuracy: 0.988465
+3 Test loss: 0.0152151
+3 Train accuracy: 0.995555 Test accuracy: 0.990471
+4 Test loss: 0.0135488
+4 Train accuracy: 0.996311 Test accuracy: 0.989803
+5 Test loss: 0.0460849
+5 Train accuracy: 0.991413 Test accuracy: 0.985958
+6 Test loss: 0.0210035
+6 Train accuracy: 0.995555 Test accuracy: 0.990471
+7 Test loss: 0.0243204
+7 Train accuracy: 0.995888 Test accuracy: 0.988131
+8 Test loss: 0.0135922
+8 Train accuracy: 0.99749 Test accuracy: 0.991474
+9 Test loss: 0.00454668
+9 Train accuracy: 0.998911 Test accuracy: 0.993982
+
+
+# MNIST-023678 Dropout enabled
+Training 023678...
+INFO:tensorflow:Restoring parameters from ./my_model_1459.ckpt
+0 Test loss: 0.044398
+0 Train accuracy: 0.986394 Test accuracy: 0.981779
+1 Test loss: 0.0440057
+1 Train accuracy: 0.987724 Test accuracy: 0.983116
+2 Test loss: 0.0167732
+2 Train accuracy: 0.995858 Test accuracy: 0.990471
+3 Test loss: 0.0304244
+3 Train accuracy: 0.992199 Test accuracy: 0.984453
+4 Test loss: 0.0261582
+4 Train accuracy: 0.993227 Test accuracy: 0.987128
+5 Test loss: 0.0618805
+5 Train accuracy: 0.991806 Test accuracy: 0.986961
+6 Test loss: 0.0117453
+6 Train accuracy: 0.99749 Test accuracy: 0.991474
+7 Test loss: 0.0908139
+7 Train accuracy: 0.986031 Test accuracy: 0.978435
+8 Test loss: 0.00749373
+8 Train accuracy: 0.998307 Test accuracy: 0.991642
+9 Test loss: 0.055399
+9 Train accuracy: 0.993015 Test accuracy: 0.985289
+Finished training

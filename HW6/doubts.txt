@@ -1,0 +1,20 @@
+CV HW6
+
+Train 1469, 02378 -> error in printing, plot image error
+
+Frozen layers is just including those two lines
+
+-> What are the deliverables:-
+
+	-> What is test loss curve? (just numbers or image)
+
+	-> What to deliver for dropout regularization (new test accuracy, activation maps?)
+       	It is just rerunning the same code with one line added for 3 layers
+
+	-> Is final execution graph the one I am getting?
+
+	-> Confirm filter maps (activations) for conv1, conv2 and pool
+	    Specially pool for which I am using pool3/pool/MaxPool:0
+
+
+What all parameters should be tuned to get test accuracy > 99%
